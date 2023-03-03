@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(rgba(2, 14, 40, 0.83), rgba(2, 14, 40, 0.83));
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+/*general*/
+img{
+    width: 100%;
+    height: 200px;
+}
+a{
+    text-decoration: none;
+}
+/*Header*/
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.logo{
+    color:bisque;
+    font-weight: 800;
+    font-size: 30px;
+    margin: 10px;
+    text-transform: uppercase;
+}
+.nav a{
+    margin: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+}
+/*showcase*/
+.showcase{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    line-height: 30px;
+}
+.welcome{
+    color: bisque;
+}
+/*Projects*/
+.title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 50px;
+    color:#fff;
+    text-align: center;
+}
+.title-2{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+.col-3{
+    flex-basis: 30%;
+    margin: 10px;
+    padding: 10px;
+    color: #000;
+    text-align: center;
+    border-radius: 10px;
+}
+.btn a{
+    color: #000
+}
+.btn{
+    width: 120px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 15px;
+    font-family: inherit;
+    font-weight: 600;
+    transition: all 0.5s ease-in;
+    background-color: bisque;
+    color: black;
+    cursor: pointer;
+    border: none;
+}
+@media (max-width: 600px){
+   .logo{
+    color:bisque;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 10px;
+    text-transform: uppercase;
+}
+.nav a{
+    margin: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+ .row{
+    display: flex;
+    flex-direction: column;
+   }
+}
