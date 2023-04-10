@@ -95,7 +95,7 @@ a{
     cursor: pointer;
     border: none;
 }
-@media (max-width: 600px){
+@media (max-width: 768px){
    .logo{
     color:bisque;
     font-weight: 600;
@@ -103,15 +103,24 @@ a{
     margin: 10px;
     text-transform: uppercase;
 }
+.menu {
+    position: relative;
+}
+.logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
 .nav a{
-    margin: 10px;
-    text-transform: uppercase;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 600;
+    display: none;
 }
  .row{
     display: flex;
     flex-direction: column;
-   }
+    width: 90%;
+ }
 }
